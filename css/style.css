@@ -8,7 +8,13 @@ body {
     font-weight: 400;
 }
 
-h1,
+h1 {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 600;
+    font-style: italic;
+    color: #121518;
+}
+
 h2, 
 h3, 
 h4,
@@ -16,9 +22,9 @@ h5,
 h6 {
     font-family: 'Noto Serif KR', serif;
     font-weight: 600;
-    font-style: italic;
     color: #121518;
 }
+
 
 a {
     color: #454545;
@@ -659,12 +665,12 @@ a:focus {
 }
 
 .service .service-icon {
-    height: 200px;
+    /*height: 200px;*/
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #000000;
+    background: transparent;
 }
 
 .service .service-icon i {
@@ -674,7 +680,7 @@ a:focus {
     text-align: center;
     font-size: 60px;
     color: #F2AA4C;
-    background: #121518;
+    background: transparent;
     transition: .5s;
 }
 
